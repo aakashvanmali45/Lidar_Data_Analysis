@@ -23,11 +23,12 @@ This project implements an end-to-end pipeline for analyzing LIDAR sensor data, 
 ## Sample Output
 
 #animate.py
+![PCD Filtered Visualization](output_animate.png)
 
 
 #visualize.py
 
-
+![Tracking Visualization](output_visualize.png)
 
 
 
