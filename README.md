@@ -20,21 +20,27 @@ This project implements an end-to-end pipeline for analyzing LIDAR sensor data, 
 - `NumPy`, `SciPy`, `Matplotlib`
 - `DBSCAN` from `scikit-learn`
 
-## Demo
+## Sample Output
 
-![Demo](tracking_output.avi)
+#animate.py
+
+
+#visualize.py
+
+
 
 
 
 ## How to run the project
 1. Download the data from the above link.
-2. 
+2. Run data_load.py to see if the data is loaded correctly
+3. Run preprocess.py to save the filtered point cloud data in your directory
+4. Run animate.py to visualize the filtered point cloud data
+5. Run bounding_box.py and then tracking.py these will store the unique labels in .json format to detect and track objects
+6. Run visualize.py to see the tracking and detection in action.
 
+## Note:
+This project is still not perfect I will update this as I learn
 
-
-## 🧠 Skills Highlighted
-- Robotics Perception
-- LIDAR Sensor Data Handling
-- Point Cloud Denoising & Clustering
-- 3D Object Detection & Tracking
-- Real-time 3D Visualization
+##  Future Scope
+To make a Lidar Data Processing Pipeline.
